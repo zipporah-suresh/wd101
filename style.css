@@ -1,0 +1,59 @@
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  font-family: 'EB Garamond', serif;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: beige;
+  color: black;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-family: 'EB Garamond', serif;
+}
+
+button:hover {
+  background-color: #e6e6d1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+}

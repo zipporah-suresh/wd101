@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Project</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form id="userForm">
+      <h2>User Details</h2>
+
+      <label>Full Name:
+        <input type="text" id="name" required />
+      </label>
+
+      <label>Email:
+        <input type="email" id="email" required />
+      </label>
+
+      <label>Password:
+        <input type="password" id="password" required />
+      </label>
+
+      <label>Date of Birth:
+        <input type="date" id="dob" required />
+      </label>
+
+      <label>
+        <input type="checkbox" id="terms" required />
+        I accept the Terms and Conditions
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <h3>Entries</h3>
+    <table id="entriesTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Date of Birth</th>
+          <th>Accepted Terms?</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <tr id="noEntriesRow">
+          <td colspan="5" style="text-align:center; font-style:italic;">
+            No entries yet.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
